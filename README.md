@@ -9,7 +9,7 @@ The goal of this project is to analyze, predict, and visualize the impact of Art
 
 ## Proposed Changes & Project Phases
 
-Based on the merged dataset (`Job_Title`, `Industry`, `AI Impact Level`, `Median Salary`, `Skills`, etc.), here is the step-by-step structure we will follow:
+Based on the merged dataset (`Job_Title`, `Industry`, `AI Impact Level`, `Median Salary`, `Skills`, etc.), here is the step-by-step structure will be followed:
 
 ### Phase 1: Exploratory Data Analysis (EDA) & Data Cleaning
 **Focus:** Understanding the data and finding initial trends.
@@ -42,7 +42,7 @@ Based on the merged dataset (`Job_Title`, `Industry`, `AI Impact Level`, `Median
 **Focus:** Synthesizing the technical work into a compelling narrative for your graduation.
 - Formulate 3-5 key actionable takeaways (e.g., "The future is remote and requires XYZ skills", or "Healthcare is the safest industry from AI replacement").
 
-## Verification Plan
+## Phase 6: Verification Plan
 
 ### Automated/Technical Verification
 - Validate ML model performance using cross-validation to ensure it doesn't overfit.
