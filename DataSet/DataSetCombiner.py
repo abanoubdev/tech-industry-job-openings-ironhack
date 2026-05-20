@@ -17,6 +17,7 @@ class DataSetCombiner:
 
     def execute_pipeline(self) -> pd.DataFrame:
         try:
+            
             print("Downloading datasets...")
             path_a = kagglehub.dataset_download(self.dataset_a_handle) 
             path_b = kagglehub.dataset_download(self.dataset_b_handle)
@@ -27,7 +28,6 @@ class DataSetCombiner:
             df_a = pd.read_csv(csv_path_a)
             df_b = pd.read_csv(csv_path_b)
 
-            # Fix mismatched column name: Dataset A uses 'Job Title', Dataset B uses 'Job_Title'
             if 'Job Title' in df_a.columns:
                 df_a.rename(columns={'Job Title': self.merge_key}, inplace=True)
 
