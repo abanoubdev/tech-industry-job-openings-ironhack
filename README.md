@@ -2,13 +2,6 @@
 
 The goal of this project is to analyze, predict, and visualize the impact of Artificial Intelligence on various jobs by 2030. The final deliverables will be meaningful and actionable for end-users (e.g., professionals, students, and educators) who want to understand how to prepare for the future job market.
 
-## User Review Required
-
-> [!IMPORTANT]
-> Please review this proposed project structure. We can adjust the focus based on what you find most interesting or what you think will wow your Ironhack audience the most!
-
-## Open Questions
-
 > [!TIP]
 > 1. **Target Variable for ML**: Are you more interested in predicting the `AI Impact Level` (Classification task) or the exact number of `Projected Openings (2030)` (Regression task)? I recommend `AI Impact Level` as it often yields better storytelling.
 > 2. **Dashboard Scope**: Do you already have a Tableau Public account set up for publishing the dashboard, or would you prefer to host it locally during the presentation?
