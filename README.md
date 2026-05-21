@@ -5,7 +5,7 @@ The goal of this project is to analyze, predict, and visualize the impact of Art
 > [!TIP]
 > 1. **Target Variable for ML**: Are you more interested in predicting the `AI Impact Level` (Classification task) or the exact number of `Projected Openings (2030)` (Regression task)? I recommend `AI Impact Level` as it often yields better storytelling.
 > 2. **Dashboard Scope**: Do you already have a Tableau Public account set up for publishing the dashboard, or would you prefer to host it locally during the presentation?
-> 3. **SQL Usage**: The data is currently in pandas. Do you want to export it to a SQLite/PostgreSQL database to demonstrate your SQL skills as part of the graduation requirements?
+> 3. **SQL Usage**: Bonus one - we can rank job fields according to `AI Impact Level`  
 
 ## Proposed Changes & Project Phases
 Based on the merged dataset (`Job_Title`, `Industry`, `AI Impact Level`, `Median Salary`, `Skills`, etc.), here is the step-by-step structure will be followed:
@@ -36,7 +36,9 @@ Based on the merged dataset (`Job_Title`, `Industry`, `AI Impact Level`, `Median
 - Export the clean, modeled data to a CSV for Tableau.
 - **Dashboard 1: "The State of the Market"**: Overview of current jobs, salaries, and remote work ratios by industry.
 - **Dashboard 2: "The 2030 AI Outlook"**: Interactive tool where a user selects their `Industry` or `Job Title` and sees their `AI Impact Level`, projected openings, and which skills they need to learn to stay relevant.
-- **Streamlit:** It will demonstrate having valid input from user ,this input can be `Job Title` or `Industry` field of Dream work and it should show the risk analysis and give some recommendations.
 
-## Phase 5: Conclusion
+### Phase 5: **Streamlit Demo:** 
+- It will demonstrate having valid input from user ,this input can be `Job Title` or `Industry` field of Dream work and it should show the risk analysis and give some recommendations.
+
+## Phase 6: Conclusion
 - Write conclusions done 
