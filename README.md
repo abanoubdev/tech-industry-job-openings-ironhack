@@ -37,12 +37,9 @@ Based on the merged dataset (`Job_Title`, `Industry`, `AI Impact Level`, `Median
 - Export the clean, modeled data to a CSV for Tableau.
 - **Dashboard 1: "The State of the Market"**: Overview of current jobs, salaries, and remote work ratios by industry.
 - **Dashboard 2: "The 2030 AI Outlook"**: Interactive tool where a user selects their `Industry` or `Job Title` and sees their `AI Impact Level`, projected openings, and which skills they need to learn to stay relevant.
+- **Streamlit Demo: It will demonstrate having valid input from user ,this input can be `Job Title` or `Industry` field of Dream work and it should show the risk analysis and give some recommendations.
 
-### Phase 5: Storytelling & Final Presentation
-**Focus:** Synthesizing the technical work into a compelling narrative for your graduation.
-- Formulate 3-5 key actionable takeaways (e.g., "The future is remote and requires XYZ skills", or "Healthcare is the safest industry from AI replacement").
-
-## Phase 6: Verification Plan
+## Phase 5: Verification Plan
 
 ### Automated/Technical Verification
 - Validate ML model performance using cross-validation to ensure it doesn't overfit.
@@ -51,3 +48,6 @@ Based on the merged dataset (`Job_Title`, `Industry`, `AI Impact Level`, `Median
 ### Manual Verification
 - Review the Tableau dashboard to ensure all filters and tooltips work correctly and the design is premium and user-friendly.
 - Do a dry run of the insights to ensure they sound logical and impactful.
+
+## Phase 6: Conclusion
+- Write conclusions done 
