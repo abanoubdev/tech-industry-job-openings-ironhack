@@ -4,13 +4,9 @@ import joblib
 from pandas.api.types import is_numeric_dtype
 import os
 
-# Set page config
 st.set_page_config(page_title="AI Risk Predictor", page_icon="🤖", layout="centered")
-
-# Determine the absolute path to the directory where app.py lives
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Load everything using absolute paths to prevent FileNotFoundError
 def load_assets():
     model = joblib.load(os.path.join(BASE_DIR, 'DataSet/model/xgb_boosting_model.pkl'))
     encoders = joblib.load(os.path.join(BASE_DIR, 'DataSet/Encoder/label_encoders.pkl'))
@@ -42,8 +38,6 @@ if st.button("Predict AI Impact Risk", type="primary"):
         subset = df[df['Job_Title'] == job_title]
 
     input_data = {}
-    
-    # Extract median/mode for all features based on the filtered subset
     for col in df.columns:
         if col == 'AI_Impact_Level': 
             continue
